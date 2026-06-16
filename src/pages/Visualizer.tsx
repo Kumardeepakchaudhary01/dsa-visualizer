@@ -1,12 +1,14 @@
-import React, { useState, useEffect, useRef, useCallback } from 'react';
+import { useState, useEffect, useRef, useCallback } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Play, Pause, RotateCcw, StepForward, ArrowLeft } from 'lucide-react';
 
 import ArrayCanvas from '../components/ArrayCanvas';
 import GraphCanvas from '../components/GraphCanvas';
 
-import { bubbleSort, mergeSort, quickSort, selectionSort, insertionSort, SortStep } from '../algorithms/sorting';
-import { bfs, dfs, dijkstra, generateRandomGraph, GraphData, GraphStep } from '../algorithms/graphs';
+import { bubbleSort, mergeSort, quickSort, selectionSort, insertionSort } from '../algorithms/sorting';
+import type { SortStep } from '../algorithms/sorting';
+import { bfs, dfs, dijkstra, generateRandomGraph } from '../algorithms/graphs';
+import type { GraphData, GraphStep } from '../algorithms/graphs';
 
 const graphAlgorithms = ['bfs', 'dfs', 'dijkstra'];
 

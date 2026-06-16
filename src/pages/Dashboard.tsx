@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link } from 'react-router-dom';
 import { Activity, Cpu, Database, Terminal } from 'lucide-react';
 
@@ -34,7 +33,7 @@ const Dashboard = () => {
             <Terminal className="text-primary" />
             DSA Visualizer
           </h1>
-          <p className="text-gray-400">FAANG-Grade Interactive Algorithm Learning Platform</p>
+          <p className="text-gray-400">Advanced Interactive Algorithm Learning Platform</p>
         </div>
       </header>
 

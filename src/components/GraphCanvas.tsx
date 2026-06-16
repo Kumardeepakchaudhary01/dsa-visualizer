@@ -1,5 +1,5 @@
-import React, { useEffect, useRef } from 'react';
-import { GraphData, GraphStep } from '../algorithms/graphs';
+import { useEffect, useRef } from 'react';
+import type { GraphData, GraphStep } from '../algorithms/graphs';
 
 interface GraphCanvasProps {
   graph: GraphData;
